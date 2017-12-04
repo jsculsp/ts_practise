@@ -12,5 +12,15 @@ namespace function_type {
     return x + y;
   };
 
-  mySum(3, 4)
+  mySum(3, 4);
+
+  // 用接口定义函数的形状
+  interface SearchFunc {
+    (source: string, subString: string): boolean;
+  }
+
+  let mySearch: SearchFunc;
+  mySearch = function (source: string, subString: string) {
+    return source.search(subString) !== -1;
+  };
 }

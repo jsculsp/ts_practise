@@ -16,6 +16,6 @@ namespace array_type {
   // 类数组（Array-like Object）不是数组类型，比如 arguments：
   // 事实上常见的类数组都有自己的接口定义，如 IArguments, NodeList, HTMLCollection 等：
   function sum() {
-    let args: IArguments = arguments
+    let args: IArguments = arguments;
   }
 }

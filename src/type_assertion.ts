@@ -8,7 +8,7 @@ namespace type_assertion {
   // 此时可以使用类型断言，将 something 断言成 string：
   function getLength(something: string | number): number {
     if ((<string>something).length) {
-      return (<string>something).length
+      return (<string>something).length;
     }
     return something.toString().length;
   }

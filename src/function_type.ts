@@ -89,6 +89,4 @@ namespace function_type {
   let aaa: any
   aaa = 's'
   test2(aaa)
-
-  
 }

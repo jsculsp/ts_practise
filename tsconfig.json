@@ -16,6 +16,8 @@
   ],
   "exclude": [
     "src/proto/**/*",
-    "node_modules"
+    "node_modules",
+    "src/**/__mocks__/*.*",
+    "src/**/test.ts"
   ]
 }
